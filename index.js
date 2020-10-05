@@ -63,7 +63,7 @@ app.use(cors());
 
 // retorna todos os itens do array
 app.get("/pescaria", (req, res) => {
-  res.send(pescaria);
+  res.json(pescaria);
 });
 
 // inicializa servidor http na porta PORTA
